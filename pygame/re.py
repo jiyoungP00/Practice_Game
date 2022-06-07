@@ -1,11 +1,11 @@
 import pygame
 import sys
 import random
-
+  
 
 def gameStart():
 
-    pygame.init()
+    pygame.init()  
 
     background = pygame.display.set_mode((480, 360))
     pygame.display.set_caption("BRICK BREAKING")
@@ -46,7 +46,7 @@ def gameStart():
     x_pos_block = 0
     y_pos_block = 0
 
-    rect_block = [[] for _ in range(10)]
+    rect_block = [[] for _ in range(10)]  
     color_block = [[] for _ in range(10)]
 
     for i in range(10):
